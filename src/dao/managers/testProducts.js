@@ -22,11 +22,6 @@ productManage.addProduct({
 // productManage.getProducts();
 
 const testProducts = async () => {
-    // const product = await productManage.getProductById(2);
-    // console.log(product);
-
-    // const product = await productManage.updateProduct(1, { price: 300 })
-    // console.log(product);
 
     const products = await productManage.deleteProduct(1);
     console.log(products);

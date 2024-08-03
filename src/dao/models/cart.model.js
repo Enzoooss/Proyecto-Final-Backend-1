@@ -14,5 +14,5 @@ cartSchema.pre("findOne", function () {
   this.populate("products.product");
 });
 
-// Exportamos el modelo que vamos a utilizar
+// Exportamos el modelo 
 export const cartModel = mongoose.model(cartCollection, cartSchema);
